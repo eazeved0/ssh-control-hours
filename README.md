@@ -1,5 +1,5 @@
 # ssh-control-hours
-A stack of scripts for register ssh login/logout activities.
+A stack of procedures for register ssh login/logout activities. There is no code here. Its just a recipe to follow. It used to work well, but there is no warranty. 
 
 ## What is the purpose?
 
@@ -13,8 +13,6 @@ No matter the login method you are using (single user such as "centos" for examp
 It sends an envvar thought the ssh connection. This var contains your id. The remote environment receives it and save to a log file that will be sent to a remote storage when you get out of the server. Quite straight forward 
 
 ## How do I make it work here?
-
-Simple!
 
 On your machine, add the follow value on ~/.ssh/config:
 
